@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS JobInfo(Id INTEGER PRIMARY KEY, Title TEXT, Company TEXT, CompanyURL TEXT, Category TEXT, Location TEXT, JobType TEXT, CareerLevel TEXT, Educational TEXT, RecruitNum TEXT, Experience TEXT, Language TEXT, Description TEXT, Requirement TEXT, Time TEXT, City TEXT, Salary TEXT, URL TEXT);
+CREATE TABLE IF NOT EXISTS Company(Id INTEGER PRIMARY KEY, Name TEXT, Category TEXT, Employee TEXT, Description TEXT);
+CREATE TABLE IF NOT EXISTS Employee(Id INTEGER PRIMARY KEY, Name TEXT, Category TEXT, Industry TEXT, Gender TEXT, Experience TEXT, City TEXT, Language TEXT, Age TEXT, Email TEXT, Phone TEXT, JobType TEXT, Nationality TEXT, StartDate TEXT, DesiredSalary TEXT, URL TEXT);
